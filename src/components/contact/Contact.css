@@ -1,0 +1,122 @@
+.contact {
+    width: 100%;
+   margin-top: 2px;
+    display: flex;
+    background-color: var(--darkgrey);
+}
+
+.contact .container {
+    max-width: 1240px;
+    margin: auto;
+    overflow: hidden;
+    display:flex;
+}
+
+.contact .col-1 {
+    flex: 1 0 45%;
+    padding: 5rem 2rem;
+      color: #D3D3D3;
+}
+
+.contact .col-1 h2 {
+    font-size: 28px;
+    padding: 0.4rem 0;
+     color: #fff;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
+}
+
+.contact .p {
+    color: var(--grey);
+}
+
+.contact .col-1 .address {
+    padding: 1rem 0;
+}
+
+.contact .col-1 .icons {
+    display: flex;
+    align-items: center;
+    padding: .4rem 0;
+}
+
+
+.contact .careers {
+    padding: 2rem 0;
+}
+
+.contact span {
+    color: var(--primary);
+}
+
+.contact .col-2 {
+    flex: 1 0 55%;
+    padding: 5rem 2rem;
+}
+
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: auto;
+}
+
+.contact form input {
+    margin-bottom: 1rem;
+    padding: .6rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    border: 1px solid var(--lightgrey);
+}
+
+.contact form textarea {
+    margin-bottom: 1rem;
+    padding: 0.6rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    border: 1px solid var(--lightgrey);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contact form .checkbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0;
+}
+
+.contact form .checkbox p {
+    text-align: justify;
+}
+
+.contact .checkbox input {
+    margin: 0;
+    padding-right: 4px;
+}
+
+.contact .icons {
+    color: lime;
+}
+
+
+
+@media screen and (max-width:960px) {
+    .contact {
+       
+    }
+
+    .contact .container {
+        flex-direction: column;
+    }
+
+    .contact .col-1 {
+        padding: 0 1rem;
+    }
+
+    .contact .col-2 {
+        padding: 1rem;
+    }
+}
+
+
+

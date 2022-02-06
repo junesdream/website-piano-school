@@ -1,0 +1,64 @@
+.testimonial {
+    width: 100%;
+    background-color: var(--darkgrey);
+}
+
+.testimonial .container {
+    max-width: 1240px;
+    padding: 1rem;
+    margin: auto;
+    overflow: hidden;
+}
+
+.testimonial .outline {
+    background-image: linear-gradient(to left, rgba(73, 50, 173, 0.5),rgba(93, 93, 95, 0.9)),
+    url('https://images.pexels.com/photos/7521206/pexels-photo-7521206.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500');
+    width: 100%;
+    height: 450px;
+    background-position: left;
+    border-radius: 10px;
+}
+
+.testimonial .content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    max-width: 50%;
+    justify-content: center;
+    padding: 3rem;
+}
+
+.testimonial-icons {
+    font-family: 'Single Day', cursive;
+    font-size: 20px;
+    background-image: -webkit-linear-gradient(left, #f00, #ff2b00, #f50, #ff8000, #fa0, #ffd500, #ff0, #d4ff00, #af0, #80ff00, #5f0, #2bff00, #0f0, #00ff2a, #0f5, #00ff80, #0fa, #00ffd5, #0ff, #00d5ff, #0af, #0080ff, #05f, #002aff, #00f, #2b00ff, #50f, #8000ff, #a0f, #d400ff, #f0f, #ff00d4, #f0a, #ff0080, #f05, #ff002b, #f00);
+    -webkit-animation: animatedBackground_a 5s linear infinite alternate;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #0000;
+    background-clip: text;
+}
+
+
+
+.testimonial .body {
+    padding: 1.2rem 0;
+    color: silver;
+}
+
+.testimonial .name p {
+    font-size: 14px;
+    color: #fff;
+}
+
+@media screen and (max-width:960px) {
+    .testimonial {
+        margin: 0;
+    }
+
+    .testimonial .content {
+        max-width: 100%;
+    }
+}
+
+
+
